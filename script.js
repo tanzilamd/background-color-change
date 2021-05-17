@@ -1,14 +1,12 @@
 // 1st Button
 function handleClick1(){
     document.body.style.backgroundColor = 'orange';
-    document.body.style.color = 'white';
 }
 const firstButton = document.getElementById('first');
 firstButton.onclick = handleClick1;
 // 2nd Button 
 function handleClick(){
     document.body.style.backgroundColor = 'tomato';
-    document.body.style.color = 'white';
 }
 var seceondButton = document.getElementById('second');
 seceondButton.onclick =  handleClick;
