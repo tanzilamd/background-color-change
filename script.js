@@ -1,6 +1,7 @@
 // 1st Button
 function handleClick1(){
     document.body.style.backgroundColor = 'orange';
+    
 }
 const firstButton = document.getElementById('first');
 firstButton.onclick = handleClick1;
